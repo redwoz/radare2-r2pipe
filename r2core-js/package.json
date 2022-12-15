@@ -4,8 +4,8 @@
   "description": "emscripten build of radare2 with an r2pipe api",
   "main": "index.js",
   "devDependencies": {
+    "closurecompiler": "redwoz/ClosureCompiler.js",
     "coffee-script": "^1.3.3",
-    "closurecompiler": "^1.6.1",
     "uglify-js": "^2.4.24"
   },
   "scripts": {
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/radare2/radare2-r2pipe/issues"
   },
-  "homepage": "https://github.com/radare2/radare2-r2pipe#readme"
+  "homepage": "https://github.com/radare2/radare2-r2pipe#readme",
+  "dependencies": {
+    "r2core": "^1.2.3"
+  }
 }
